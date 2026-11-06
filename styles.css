@@ -1,0 +1,21 @@
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+}
+
+.cursive {
+  font-family: "Edu NSW ACT Hand Cursive", cursive;
+}
+
+strong {
+  color: rgb(77, 255, 0);
+  font-weight: 900;
+}
+
+footer,
+footer p {
+  color: white;
+}
+
+a {
+  color: rgb(0, 149, 255);
+}

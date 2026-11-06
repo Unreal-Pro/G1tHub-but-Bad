@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>G1tHub but Bad - Second Page</title>
+    <link rel="stylesheet" href="black.css">
+
+    <style>
+        button {
+            padding: 20px 40px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <style>
+        body {
+            background-image: url("./Images/Warship.jpg");background-repeat: no-repeat; background-size: cover; background-position: center; background-attachment: fixed;
+        }
+    </style>
+
+    <h1>Dynamic Content</h1>
+
+
+
+
+    <button id="colourButton" onclick="changeColour()">
+        Click me!
+    </button>
+
+    <script>
+        function changeColour() {
+            const colour = '#' + Math.floor(Math.random() * 16777215)
+                .toString(16).padStart(6, '0');
+
+            document.getElementById('colourButton').style.backgroundColor = colour;
+        }
+    </script>
+
+
+
+    <footer>
+        <br>
+        <p>© 2026 G1tHub but Bad. All rights reserved.</p>
+        <a href="index.html">HOME</a>
+        <br>
+    </footer>
+
+</body>
+
+</html>
